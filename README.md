@@ -20,6 +20,8 @@ The Dapp should perform the following tasks automatically.
 - Node v11
 - Python v2
 - NPM v6
+- Metamask
+- Ganache GUI (set port to 8545)
 - Truffle - `npm install truffle -g`
 
 # Setup
@@ -30,6 +32,11 @@ truffle compile
 truffle migrate
 npm run start
 ```
+
+After starting up the server:
+- Connect to the local network with Metamask. Use the mnemoic provided by Ganache.
+- Approve the connection
+- Refresh localhost:3000
 
 # Testing
 ```sh
